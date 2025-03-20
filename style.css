@@ -1,0 +1,84 @@
+body{
+  background-color: blue;
+}
+h1{
+  text-align: center;
+}
+.outline{
+  position: absolute;
+  display: flex;
+  top: 100px;
+  left: 700px;
+  background-color: black;
+  width: 130px;
+  height: 350px;
+  border-radius: 20%;
+  text-align: center;
+}
+.light{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+#red{
+  position: absolute;
+  left: 25px;
+  top: 30px;
+
+}
+#yellow{
+  position: absolute;
+  left: 25px;
+  top: 130px;
+
+}
+#green{
+  position: absolute;
+  left: 25px;
+  top: 230px;
+}
+#red_1{
+  position: absolute;
+  background-color:rgb(241, 5, 5);
+  font-size: 30px;
+  border-radius: 2px;
+  top: 500px;
+  left: 620px;
+  border-radius: 25%;
+}
+#yellow_2{
+  background-color: yellow;
+  position: absolute;
+  font-size: 30px;
+  border-radius: 2px;
+  top: 500px;
+  left: 725px;
+  border-radius: 25%;
+}
+#green_3{
+  position: absolute;
+  background-color:green;
+  font-size: 30px;
+  border-radius: 2px;
+  top: 500px;
+  left: 850px;
+  border-radius: 25%;
+  margin-left: 30px;
+}
+.redch{
+  background-color: red;
+}
+.yellowch{
+  background-color: yellow;
+}
+.greench{
+  background-color: green;
+}
+button:hover{
+  cursor: pointer;
+
+}
